@@ -17,4 +17,19 @@ Todo
  - Return correct ICON per sensor (i.e. make better use of device-class)
  - Rework bouwew's work of async (just switched to sync to align with other examples, should be back to async)
  - ...
+
+
+Include like (`configuration.yaml`)
+
+
+```
+plugwise_dev:
+  smile:
+    - name: Some Anna
+      password: abcdefg
+      host: 10.9.8.7
+    - name: Other Anna
+      password: abcdefg
+      host: 10.9.8.6
+```
 
